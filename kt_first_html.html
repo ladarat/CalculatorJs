@@ -1,6 +1,6 @@
 <html lang="en-US" style="height: 100%;">
     <head>
-        <script src="C:\Users\Ladarat\KT\kt_firstjs.js">
+        <script src="kt_firstjs.js">
         </script>
         <script type="text/javascript">
             function response(){
@@ -13,7 +13,11 @@
             Hello KT
         </p>
         <script type="text/javascript">
-            calculator()
+            var operatorOne = 1;
+            var operatorTwo = 2;
+            var operance = "+";
+            var result = calculator(operatorOne, operatorTwo, operance)
+            document.getElementById('demo').innerHTML = operatorOne +" " + operance + " " + operatorTwo + " = "+result;
         </script>
     </body>
 </html>
